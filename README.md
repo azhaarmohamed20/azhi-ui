@@ -1,8 +1,13 @@
-# React + Vite
+# Azhi UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Button Bar
 
-Currently, two official plugins are available:
+Button needs 1 prop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- onClick: onClick Function
+
+  ```jsx
+  <Button onClick={score}></Button>
+  ```
+  
+  If you want to style the Button with tailwindcss you can just add the standard "className" prop to the Button.
