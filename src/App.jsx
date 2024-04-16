@@ -7,8 +7,7 @@ function App() {
     <div>
       <Button>Etwas</Button>
     </div>
-  )
-  
+  )  
 }
 
 export default App
